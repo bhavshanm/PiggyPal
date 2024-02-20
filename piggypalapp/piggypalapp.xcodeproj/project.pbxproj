@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C36061E2B81B84B008D22E3 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8C36061D2B81B84B008D22E3 /* FirebaseAuthCombine-Community */; };
+		8C3606202B81B84B008D22E3 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8C36061F2B81B84B008D22E3 /* FirebaseDatabase */; };
+		8C3606222B81B84B008D22E3 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8C3606212B81B84B008D22E3 /* FirebaseDatabaseSwift */; };
+		8C3606242B81B84B008D22E3 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8C3606232B81B84B008D22E3 /* FirebaseFirestoreCombine-Community */; };
+		8C3606262B81B84B008D22E3 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8C3606252B81B84B008D22E3 /* FirebaseStorageCombine-Community */; };
+		8C4BF0342B7F0FF4005DB902 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8C4BF0332B7F0FF4005DB902 /* FirebaseAuth */; };
+		8C4BF0362B7F0FF4005DB902 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8C4BF0352B7F0FF4005DB902 /* FirebaseFirestore */; };
+		8C4BF0382B7F0FF4005DB902 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8C4BF0372B7F0FF4005DB902 /* FirebaseFirestoreSwift */; };
+		8C4BF03A2B7F0FF4005DB902 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8C4BF0392B7F0FF4005DB902 /* FirebaseStorage */; };
+		8C726DCF2B7B351A0065C545 /* piggypalappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DCE2B7B351A0065C545 /* piggypalappApp.swift */; };
+		8C726DD12B7B351A0065C545 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DD02B7B351A0065C545 /* ContentView.swift */; };
+		8C726DD32B7B351C0065C545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C726DD22B7B351C0065C545 /* Assets.xcassets */; };
+		8C726DD62B7B351C0065C545 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C726DD52B7B351C0065C545 /* Preview Assets.xcassets */; };
+		8C726DE02B7B351C0065C545 /* piggypalappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DDF2B7B351C0065C545 /* piggypalappTests.swift */; };
+		8C726DEA2B7B351C0065C545 /* piggypalappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DE92B7B351C0065C545 /* piggypalappUITests.swift */; };
+		8C726DEC2B7B351C0065C545 /* piggypalappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DEB2B7B351C0065C545 /* piggypalappUITestsLaunchTests.swift */; };
+		8C726E002B7B36130065C545 /* Login view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726DFF2B7B36130065C545 /* Login view.swift */; };
+		8C726E022B7B38A10065C545 /* Input View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E012B7B38A10065C545 /* Input View.swift */; };
+		8C726E052B7B3FE90065C545 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E042B7B3FE90065C545 /* RegistrationView.swift */; };
+		8C726E072B7C8A610065C545 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E062B7C8A610065C545 /* ProfileView.swift */; };
+		8C726E092B7C8C890065C545 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E082B7C8C890065C545 /* SettingsRowView.swift */; };
+		8C726E0B2B7C90620065C545 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E0A2B7C90620065C545 /* User.swift */; };
+		8C726E0D2B7DD6BC0065C545 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C726E0C2B7DD6BC0065C545 /* GoogleService-Info.plist */; };
+		8C726E1A2B7DD8F00065C545 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C726E192B7DD8F00065C545 /* AuthViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C726DDC2B7B351C0065C545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C726DC32B7B351A0065C545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C726DCA2B7B351A0065C545;
+			remoteInfo = piggypalapp;
+		};
+		8C726DE62B7B351C0065C545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C726DC32B7B351A0065C545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C726DCA2B7B351A0065C545;
+			remoteInfo = piggypalapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C726DCB2B7B351A0065C545 /* piggypalapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piggypalapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C726DCE2B7B351A0065C545 /* piggypalappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piggypalappApp.swift; sourceTree = "<group>"; };
+		8C726DD02B7B351A0065C545 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C726DD22B7B351C0065C545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C726DD52B7B351C0065C545 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C726DDB2B7B351C0065C545 /* piggypalappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piggypalappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C726DDF2B7B351C0065C545 /* piggypalappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piggypalappTests.swift; sourceTree = "<group>"; };
+		8C726DE52B7B351C0065C545 /* piggypalappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = piggypalappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C726DE92B7B351C0065C545 /* piggypalappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piggypalappUITests.swift; sourceTree = "<group>"; };
+		8C726DEB2B7B351C0065C545 /* piggypalappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = piggypalappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C726DFF2B7B36130065C545 /* Login view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login view.swift"; sourceTree = "<group>"; };
+		8C726E012B7B38A10065C545 /* Input View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Input View.swift"; sourceTree = "<group>"; };
+		8C726E042B7B3FE90065C545 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		8C726E062B7C8A610065C545 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		8C726E082B7C8C890065C545 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		8C726E0A2B7C90620065C545 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8C726E0C2B7DD6BC0065C545 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8C726E192B7DD8F00065C545 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C726DC82B7B351A0065C545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C3606222B81B84B008D22E3 /* FirebaseDatabaseSwift in Frameworks */,
+				8C3606242B81B84B008D22E3 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				8C3606202B81B84B008D22E3 /* FirebaseDatabase in Frameworks */,
+				8C4BF0342B7F0FF4005DB902 /* FirebaseAuth in Frameworks */,
+				8C4BF03A2B7F0FF4005DB902 /* FirebaseStorage in Frameworks */,
+				8C4BF0362B7F0FF4005DB902 /* FirebaseFirestore in Frameworks */,
+				8C4BF0382B7F0FF4005DB902 /* FirebaseFirestoreSwift in Frameworks */,
+				8C3606262B81B84B008D22E3 /* FirebaseStorageCombine-Community in Frameworks */,
+				8C36061E2B81B84B008D22E3 /* FirebaseAuthCombine-Community in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DD82B7B351C0065C545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DE22B7B351C0065C545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C36061C2B81B84B008D22E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C726DC22B7B351A0065C545 = {
+			isa = PBXGroup;
+			children = (
+				8C726DCD2B7B351A0065C545 /* piggypalapp */,
+				8C726DDE2B7B351C0065C545 /* piggypalappTests */,
+				8C726DE82B7B351C0065C545 /* piggypalappUITests */,
+				8C726DCC2B7B351A0065C545 /* Products */,
+				8C36061C2B81B84B008D22E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8C726DCC2B7B351A0065C545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DCB2B7B351A0065C545 /* piggypalapp.app */,
+				8C726DDB2B7B351C0065C545 /* piggypalappTests.xctest */,
+				8C726DE52B7B351C0065C545 /* piggypalappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C726DCD2B7B351A0065C545 /* piggypalapp */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DF82B7B35450065C545 /* App */,
+				8C726DF92B7B35570065C545 /* Components */,
+				8C726DFA2B7B35660065C545 /* Core */,
+				8C726DFB2B7B356E0065C545 /* Profile */,
+				8C726DFD2B7B359F0065C545 /* Model */,
+				8C726DD22B7B351C0065C545 /* Assets.xcassets */,
+				8C726E0C2B7DD6BC0065C545 /* GoogleService-Info.plist */,
+				8C726DD42B7B351C0065C545 /* Preview Content */,
+			);
+			path = piggypalapp;
+			sourceTree = "<group>";
+		};
+		8C726DD42B7B351C0065C545 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DD52B7B351C0065C545 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C726DDE2B7B351C0065C545 /* piggypalappTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DDF2B7B351C0065C545 /* piggypalappTests.swift */,
+			);
+			path = piggypalappTests;
+			sourceTree = "<group>";
+		};
+		8C726DE82B7B351C0065C545 /* piggypalappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DE92B7B351C0065C545 /* piggypalappUITests.swift */,
+				8C726DEB2B7B351C0065C545 /* piggypalappUITestsLaunchTests.swift */,
+			);
+			path = piggypalappUITests;
+			sourceTree = "<group>";
+		};
+		8C726DF82B7B35450065C545 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DCE2B7B351A0065C545 /* piggypalappApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8C726DF92B7B35570065C545 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E012B7B38A10065C545 /* Input View.swift */,
+				8C726E082B7C8C890065C545 /* SettingsRowView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8C726DFA2B7B35660065C545 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E032B7B3F9D0065C545 /* Authentication */,
+				8C726DFC2B7B35800065C545 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		8C726DFB2B7B356E0065C545 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E062B7C8A610065C545 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8C726DFC2B7B35800065C545 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DD02B7B351A0065C545 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		8C726DFD2B7B359F0065C545 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E0A2B7C90620065C545 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8C726E032B7B3F9D0065C545 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E172B7DD8950065C545 /* View */,
+				8C726E182B7DD89C0065C545 /* View Model */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		8C726E172B7DD8950065C545 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C726DFF2B7B36130065C545 /* Login view.swift */,
+				8C726E042B7B3FE90065C545 /* RegistrationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8C726E182B7DD89C0065C545 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C726E192B7DD8F00065C545 /* AuthViewModel.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C726DCA2B7B351A0065C545 /* piggypalapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C726DEF2B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalapp" */;
+			buildPhases = (
+				8C726DC72B7B351A0065C545 /* Sources */,
+				8C726DC82B7B351A0065C545 /* Frameworks */,
+				8C726DC92B7B351A0065C545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = piggypalapp;
+			packageProductDependencies = (
+				8C4BF0332B7F0FF4005DB902 /* FirebaseAuth */,
+				8C4BF0352B7F0FF4005DB902 /* FirebaseFirestore */,
+				8C4BF0372B7F0FF4005DB902 /* FirebaseFirestoreSwift */,
+				8C4BF0392B7F0FF4005DB902 /* FirebaseStorage */,
+				8C36061D2B81B84B008D22E3 /* FirebaseAuthCombine-Community */,
+				8C36061F2B81B84B008D22E3 /* FirebaseDatabase */,
+				8C3606212B81B84B008D22E3 /* FirebaseDatabaseSwift */,
+				8C3606232B81B84B008D22E3 /* FirebaseFirestoreCombine-Community */,
+				8C3606252B81B84B008D22E3 /* FirebaseStorageCombine-Community */,
+			);
+			productName = piggypalapp;
+			productReference = 8C726DCB2B7B351A0065C545 /* piggypalapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C726DDA2B7B351C0065C545 /* piggypalappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C726DF22B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalappTests" */;
+			buildPhases = (
+				8C726DD72B7B351C0065C545 /* Sources */,
+				8C726DD82B7B351C0065C545 /* Frameworks */,
+				8C726DD92B7B351C0065C545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C726DDD2B7B351C0065C545 /* PBXTargetDependency */,
+			);
+			name = piggypalappTests;
+			productName = piggypalappTests;
+			productReference = 8C726DDB2B7B351C0065C545 /* piggypalappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C726DE42B7B351C0065C545 /* piggypalappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C726DF52B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalappUITests" */;
+			buildPhases = (
+				8C726DE12B7B351C0065C545 /* Sources */,
+				8C726DE22B7B351C0065C545 /* Frameworks */,
+				8C726DE32B7B351C0065C545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C726DE72B7B351C0065C545 /* PBXTargetDependency */,
+			);
+			name = piggypalappUITests;
+			productName = piggypalappUITests;
+			productReference = 8C726DE52B7B351C0065C545 /* piggypalappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C726DC32B7B351A0065C545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					8C726DCA2B7B351A0065C545 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					8C726DDA2B7B351C0065C545 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8C726DCA2B7B351A0065C545;
+					};
+					8C726DE42B7B351C0065C545 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 8C726DCA2B7B351A0065C545;
+					};
+				};
+			};
+			buildConfigurationList = 8C726DC62B7B351A0065C545 /* Build configuration list for PBXProject "piggypalapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C726DC22B7B351A0065C545;
+			packageReferences = (
+				8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 8C726DCC2B7B351A0065C545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C726DCA2B7B351A0065C545 /* piggypalapp */,
+				8C726DDA2B7B351C0065C545 /* piggypalappTests */,
+				8C726DE42B7B351C0065C545 /* piggypalappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C726DC92B7B351A0065C545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C726DD62B7B351C0065C545 /* Preview Assets.xcassets in Resources */,
+				8C726DD32B7B351C0065C545 /* Assets.xcassets in Resources */,
+				8C726E0D2B7DD6BC0065C545 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DD92B7B351C0065C545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DE32B7B351C0065C545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C726DC72B7B351A0065C545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C726DD12B7B351A0065C545 /* ContentView.swift in Sources */,
+				8C726E002B7B36130065C545 /* Login view.swift in Sources */,
+				8C726E022B7B38A10065C545 /* Input View.swift in Sources */,
+				8C726DCF2B7B351A0065C545 /* piggypalappApp.swift in Sources */,
+				8C726E0B2B7C90620065C545 /* User.swift in Sources */,
+				8C726E072B7C8A610065C545 /* ProfileView.swift in Sources */,
+				8C726E052B7B3FE90065C545 /* RegistrationView.swift in Sources */,
+				8C726E092B7C8C890065C545 /* SettingsRowView.swift in Sources */,
+				8C726E1A2B7DD8F00065C545 /* AuthViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DD72B7B351C0065C545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C726DE02B7B351C0065C545 /* piggypalappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C726DE12B7B351C0065C545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C726DEA2B7B351C0065C545 /* piggypalappUITests.swift in Sources */,
+				8C726DEC2B7B351C0065C545 /* piggypalappUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C726DDD2B7B351C0065C545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C726DCA2B7B351A0065C545 /* piggypalapp */;
+			targetProxy = 8C726DDC2B7B351C0065C545 /* PBXContainerItemProxy */;
+		};
+		8C726DE72B7B351C0065C545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C726DCA2B7B351A0065C545 /* piggypalapp */;
+			targetProxy = 8C726DE62B7B351C0065C545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C726DED2B7B351C0065C545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C726DEE2B7B351C0065C545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C726DF02B7B351C0065C545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piggypalapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C726DF12B7B351C0065C545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"piggypalapp/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C726DF32B7B351C0065C545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piggypalapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/piggypalapp";
+			};
+			name = Debug;
+		};
+		8C726DF42B7B351C0065C545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/piggypalapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/piggypalapp";
+			};
+			name = Release;
+		};
+		8C726DF62B7B351C0065C545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = piggypalapp;
+			};
+			name = Debug;
+		};
+		8C726DF72B7B351C0065C545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y4B4G7QFG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rithmikanaveen.piggypalappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = piggypalapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C726DC62B7B351A0065C545 /* Build configuration list for PBXProject "piggypalapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C726DED2B7B351C0065C545 /* Debug */,
+				8C726DEE2B7B351C0065C545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C726DEF2B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C726DF02B7B351C0065C545 /* Debug */,
+				8C726DF12B7B351C0065C545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C726DF22B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C726DF32B7B351C0065C545 /* Debug */,
+				8C726DF42B7B351C0065C545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C726DF52B7B351C0065C545 /* Build configuration list for PBXNativeTarget "piggypalappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C726DF62B7B351C0065C545 /* Debug */,
+				8C726DF72B7B351C0065C545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = exactVersion;
+				version = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8C36061D2B81B84B008D22E3 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		8C36061F2B81B84B008D22E3 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8C3606212B81B84B008D22E3 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		8C3606232B81B84B008D22E3 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		8C3606252B81B84B008D22E3 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		8C4BF0332B7F0FF4005DB902 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8C4BF0352B7F0FF4005DB902 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8C4BF0372B7F0FF4005DB902 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		8C4BF0392B7F0FF4005DB902 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8C4BF0322B7F0FF4005DB902 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8C726DC32B7B351A0065C545 /* Project object */;
+}
