@@ -1,0 +1,6 @@
+framework module Pods_PiggyLists {
+  umbrella header "Pods-PiggyLists-umbrella.h"
+
+  export *
+  module * { export * }
+}
